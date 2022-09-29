@@ -226,3 +226,24 @@ this circle method with radius of 50 percent only works when width and height ar
 #times h2,h3{
     color: rgba(13, 15, 15, 0.904);
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 5%;
+    padding: 3px;
+    color: #3a3a3a;
+}
