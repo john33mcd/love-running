@@ -247,3 +247,15 @@ footer {
     padding: 3px;
     color: #3a3a3a;
 }
+/* this is the styling for the gallery, clear rule sets photos below header, line height takes away gaps, column-count puts photos in order. */
+#photos{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+
+#photos > img {
+    width: 100%;
+}
