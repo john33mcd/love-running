@@ -138,10 +138,10 @@ h2 {
 
 /* zero auto centers div, should be listed last for this method to work */
 #center-about {
-    
+
     width: 33%;
-   /* margin: 0 auto; */
-   margin: 30px auto;
+    /* margin: 0 auto; */
+    margin: 30px auto;
 }
 
 .left-about-heading {
@@ -222,8 +222,10 @@ this circle method with radius of 50 percent only works when width and height ar
     border: 2px solid white;
     box-sizing: border-box;
 }
+
 /* these colours could be changed, very bright in comparison to sample */
-#times h2,h3{
+#times h2,
+h3 {
     color: rgba(13, 15, 15, 0.904);
 }
 
@@ -233,11 +235,11 @@ footer {
     height: 150px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -247,8 +249,9 @@ footer {
     padding: 3px;
     color: #3a3a3a;
 }
+
 /* this is the styling for the gallery, clear rule sets photos below header, line height takes away gaps, column-count puts photos in order. */
-#photos{
+#photos {
     clear: both;
     line-height: 0;
     column-count: 4;
@@ -256,14 +259,14 @@ footer {
 }
 
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
 /* media queries for styles (tablets, phones etc) */
 
 @media screen and (max-width: 1200px) {
-    #club-ethos{
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -274,31 +277,63 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #center-about{
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    hr{
+    hr {
         display: none;
     }
 }
 
 /* for medium screen sizes from 950px wide and down, phones.*/
-@media screen and (max-width: 950px){
-#menu{
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-}
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+
+
 }
