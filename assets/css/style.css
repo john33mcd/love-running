@@ -341,6 +341,16 @@ footer {
         padding: 0 20px;
     }
 
+    #photos {
+        column-count: 3;
+    }
 
 
+
+}
+/* specifically to target phones */
+@media screen and (max-width: 800px){
+#photos {
+    column-count: 2;
+}
 }
